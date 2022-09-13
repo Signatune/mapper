@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="shortcut icon" href="#" />
-  <link rel="stylesheet" href="{% static 'parcel-entry.css' %}" />
+  <link rel="stylesheet" href="{% static 'dist/parcel-entry.css' %}" />
 
 </head>
 
@@ -19,7 +19,7 @@
   {% block body %}{% endblock %}
 
   <!-- Parcel rendered Javascript -->
-  <script src="{% static 'parcel-entry.js' %}"></script>
+  <script src="{% static 'dist/parcel-entry.js' %}"></script>
   {% block scripts %}{% endblock %}
 </body>
 </html>

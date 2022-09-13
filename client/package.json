@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build": "parcel build parcel-entry.js --dist-dir ../server/mapper/static",
-    "start": "parcel parcel-entry.js --hmr-port 34471 --dist-dir ../server/mapper/static"
+    "build": "parcel build parcel-entry.js --dist-dir ../server/static/dist",
+    "start": "parcel parcel-entry.js --hmr-port 34471 --dist-dir ../server/static/dist"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
