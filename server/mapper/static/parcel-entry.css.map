@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["scss/index.scss"],"sourcesContent":["body {\n  background-color: \"#eae8cf\"; /* Test */\n}\n"],"names":[],"version":3,"file":"parcel-entry.css.map","sourceRoot":"/__parcel_source_root/"}
